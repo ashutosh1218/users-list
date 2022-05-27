@@ -76,6 +76,8 @@ function CreateArea(props) {
                         var ok = false;
                         age>=18?ok=true:alert("Age less than 18")
                         length>=3&&length<=20?ok=true:alert("Enter Valid Name",ok=false);
+                        item.email.length>=8?ok=true:alert("Enter a Valid email Id", ok=false);
+
 
                         ok && props.click(item)
                         ok&&updateItem(() => {
