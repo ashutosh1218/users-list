@@ -73,10 +73,11 @@ function CreateArea(props) {
                     </div>
 
                     <button class="btn btn--radius-2 btn--red" type="submit btn-primary" onClick={(event) => {
-                        var ok = false;
-                        age>=18?ok=true:alert("Age less than 18")
-                        length>=3&&length<=20?ok=true:alert("Enter Valid Name",ok=false);
-                        item.email.length>=8?ok=true:alert("Enter a Valid email Id", ok=false);
+                        var ok1 = false, ok2 = false, ok3 = false;
+                        age>=18?ok1=true:alert("Age less than 18")
+                        length>=3&&length<=20?ok2=true:alert("Enter Valid Name");
+                        item.email.length>=8?ok3=true:alert("Enter a Valid email Id");
+                        var ok=ok1&&ok2&&ok3;
 
 
                         ok && props.click(item)
