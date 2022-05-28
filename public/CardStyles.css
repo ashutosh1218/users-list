@@ -512,3 +512,32 @@
     white-space: pre-wrap;
     word-wrap: break-word;
   }
+  .social-handles{
+    margin: 20px 15px;
+    height:20px;
+    width:20px;
+    color:rgb(78, 28, 28);
+}
+.social-handles:hover{
+  color:#e7d5c3;
+}
+.social{
+  /* padding:3% 5% 1% 5%; */
+  text-align: center;
+  
+}
+.madeBy, .copyright{
+  font-family: "Open Sans", "Arial", "Helvetica Neue", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom:5px;
+}
+.copyright{
+  padding-top:3px;
+}
+.name:hover{
+  color:#e7d5c3;
+}
