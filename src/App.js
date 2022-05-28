@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import CreateArea from "./components/CreateArea";
 import Display from "./components/Display";
+import Footer from "./components/Footer";
 function App() {
   const [users, updateUsers] = useState([]);
   function handleClick(item) {
@@ -32,6 +33,7 @@ function App() {
         </div>
 
       </div>
+      <Footer/>
     </div>
   );
 }
